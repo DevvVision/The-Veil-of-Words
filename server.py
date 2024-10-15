@@ -2,7 +2,8 @@ import threading
 import streamlit as st
 import socket
 host = ''
-port = 9999
+port = 'XXXX' 
+#Port number of host 
 server = socket.socket()
 server.bind((host, port))
 server.listen()
